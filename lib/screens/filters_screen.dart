@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:internshala_project/functions.dart';
-import 'package:internshala_project/search_screen.dart';
+import 'package:internshala_project/functions/functions.dart';
+import 'package:internshala_project/screens/search_screen.dart';
 
 class FiltersScreen extends StatefulWidget {
   const FiltersScreen({super.key});

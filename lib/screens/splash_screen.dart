@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:internshala_project/search_screen.dart';
+import 'package:internshala_project/screens/search_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

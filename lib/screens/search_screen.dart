@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:internshala_project/filters_screen.dart';
-import 'package:internshala_project/functions.dart';
+import 'package:internshala_project/screens/filters_screen.dart';
+import 'package:internshala_project/functions/functions.dart';
 import 'package:internshala_project/widgets/filter_chip.dart';
 
 class SearchScreen extends StatefulWidget {

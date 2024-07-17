@@ -25,8 +25,6 @@ Future<List<Map<String, dynamic>>> fetchInternships({
               item.toLowerCase() == element["title"].toString().toLowerCase()),
         )
         .toList();
-
-    print(internshipList);
   }
   if (locationList.isNotEmpty) {
     internshipList = internshipList
@@ -36,8 +34,6 @@ Future<List<Map<String, dynamic>>> fetchInternships({
                   item.toLowerCase() == location.toString().toLowerCase())),
         )
         .toList();
-
-    print(internshipList);
   }
   return internshipList;
 }
